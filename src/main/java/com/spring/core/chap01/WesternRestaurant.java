@@ -1,6 +1,6 @@
 package com.spring.core.chap01;
 
-public class WasternRestaurant implements Restaurant{
+public class WesternRestaurant implements Restaurant{
 
     //쉐프
     private Chef chef = new JannChef();
