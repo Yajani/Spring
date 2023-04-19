@@ -25,4 +25,13 @@ public class EasternRestaurant implements Restaurant {
         course.combineMenu();
         chef.cook();
     }
+
+//    @Autowired
+    public void setChef(Chef chef) {
+        this.chef = chef;
+    }
+//@Autowired
+    public void setCourse(Course course) {
+        this.course = course;
+    }
 }
