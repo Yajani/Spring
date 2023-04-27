@@ -7,7 +7,7 @@ public class EasternRestaurant implements Restaurant{
     //요리코스
     private Course course = new FrenchCourse();
 
-    //요리를 주문하는 기능z
+    //요리를 주문하는 기능
     public void order(){
         System.out.println(" 요리를 주문합니다.");
         course.combineMenu();
